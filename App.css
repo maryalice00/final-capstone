@@ -1,0 +1,33 @@
+/* Importing Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Applying font globally */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0; /* Light gray color */
+}
+
+/* Applying font to specific elements */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Additional styles for .row */
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3vw;
+    max-width: 80vw;
+    align-content: center;
+    margin: auto;
+    margin-bottom: 3vw;
+}
+
+.row div {
+    margin-top: 3vw;
+}
+
+.row img {
+    margin-top: 3vw;
+}
